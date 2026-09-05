@@ -1,0 +1,6 @@
+# rhit sizes its tables and centers its header to the terminal width. With no
+# controlling terminal (pytest captures output) the reference containers fell
+# back to a 50-column layout; macOS rhit falls back to a much wider one, so every
+# table and header renders at a different width than the goldens. Pin COLUMNS to
+# the reference width so the width-sensitive output matches.
+export COLUMNS=50

@@ -8,3 +8,13 @@ rhit_*.zip
 rhit.log
 glassbench_v1.db
 .bacon-locations
+
+# ProgramBench course-competition artifacts
+executable
+.programbench/venv/
+.programbench/gitconfig
+.programbench/home/
+.programbench/tests/
+.programbench/run/
+.programbench/shims/
+.programbench/tmux/
