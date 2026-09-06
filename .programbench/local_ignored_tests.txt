@@ -1,6 +1,6 @@
 # Course-side exclusions: tests that are environment-sensitive outside the
 # benchmark containers. Format: <branch>/<classname>.<testname>
-#
+
 # rhit renders its --help through termimad, which derives the code-block
 # background/foreground grays from the detected terminal theme. On macOS termimad
 # picks 48;5;237 / 38;5;252 where the Linux container captured 48;5;235 /
